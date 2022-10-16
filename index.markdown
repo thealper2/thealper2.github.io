@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 ---
 
@@ -14,7 +11,10 @@ I am a 3rd year computer engineering student.
 ## My Projects
 
 My Projects
-[Bilgisayar Terimleri Sozlugu](/bilgisayar-terimleri-sozlugu/).
+
+[Bilgisayar Terimleri Sozlugu](/bilgisayar-terimleri-sozlugu/)
+
+[Operating Systems Directory Structures](/directory-structures/)
 
 ---
 
@@ -33,6 +33,6 @@ This website is still in the coding phase. :)
 ---
 
 <footer style="float:left;"><small>&copy; 2022 thealper2</small></footer>
-<footer style="float:right;"><small><a href="https://thealper2.github.io/">My Github</a></small></footer>
+<footer style="float:right;"><small><a href="https://github.com/thealper2">My Github</a></small></footer>
 
 
