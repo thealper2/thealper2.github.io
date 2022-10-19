@@ -1,0 +1,17 @@
+- title: Ana Sayfa
+  link: /
+
+- title: Hakkımda
+  link: /about/
+
+- title: CTF Çözümleri
+  link: /ctf-writeups/
+
+- title: Projelerim
+  link: /my-projects/
+
+- title: Blog Yazıları
+  link: /blog/
+
+- title: İletişim
+  link: /contact/

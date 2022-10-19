@@ -4,15 +4,19 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<nav>
+      <ul style="display: flex;list-style:none">
+        {% for item in site.data.menu %}
+        <li style="margin-right: 50px"><a style="text-decoration:none" class="{% if page.url == item.link %}active{% endif %}" href="{{ item.link }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+</nav>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+## Hakkımda 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Merhaba, ben Alper. Bilgisayar Mühendisliği 3. Sınıf öğrencisiyim.
 
+---
 
-[jekyll-organization]: https://github.com/jekyll
+<footer style="float:left;"><small>&copy; 2022 thealper2</small></footer>
+<footer style="float:right;"><small><a href="https://github.com/thealper2">My Github</a></small></footer>

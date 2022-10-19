@@ -10,7 +10,7 @@ Bilgisayar terimleri sozlugu projesi hakkında birtakım bilgiler.
 
 ### A
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -24,7 +24,7 @@ Writeup | Author | Description
 
 ### B
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -34,7 +34,7 @@ Writeup | Author | Description
 
 ### C
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -45,7 +45,7 @@ Writeup | Author | Description
 
 ### D
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -55,7 +55,7 @@ Writeup | Author | Description
 
 ### E
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -68,7 +68,7 @@ Writeup | Author | Description
 
 ### F
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -79,7 +79,7 @@ Writeup | Author | Description
 
 ### G
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -91,7 +91,7 @@ Writeup | Author | Description
 
 ### H
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -101,7 +101,7 @@ Writeup | Author | Description
 
 ### I
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -112,7 +112,7 @@ Writeup | Author | Description
 
 ### J
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -124,7 +124,7 @@ Writeup | Author | Description
 
 ### K
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -136,7 +136,7 @@ Writeup | Author | Description
 
 ### L
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -147,7 +147,7 @@ Writeup | Author | Description
 
 ### M
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -159,7 +159,7 @@ Writeup | Author | Description
 
 ### N
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -170,7 +170,7 @@ Writeup | Author | Description
 
 ### O
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -182,7 +182,7 @@ Writeup | Author | Description
 
 ### P
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -195,7 +195,7 @@ Writeup | Author | Description
 
 ### Q
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -206,7 +206,7 @@ Writeup | Author | Description
 
 ### R
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -218,7 +218,7 @@ Writeup | Author | Description
 
 ### S
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -230,7 +230,7 @@ Writeup | Author | Description
 
 ### T
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -241,7 +241,7 @@ Writeup | Author | Description
 
 ### U
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -252,7 +252,7 @@ Writeup | Author | Description
 
 ### V
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -261,7 +261,7 @@ Writeup | Author | Description
 
 ### W
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -273,7 +273,7 @@ Writeup | Author | Description
 
 ### X
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -285,7 +285,7 @@ Writeup | Author | Description
 
 ### Y
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output
@@ -296,7 +296,7 @@ Writeup | Author | Description
 
 ### Z
 
-Writeup | Author | Description
+Kelime | Yazar | Açıklama
 --------|------------ | ------------
 [AB](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Access Burst
 [ADIO](/bilgisayar-terimleri-sozlugu/test) | [Alper Karaca](https://github.com/thealper2) | Analog-Digital Input-Output

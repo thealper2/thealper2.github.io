@@ -1,20 +1,17 @@
 ---
 layout: default
 ---
+<nav>
+      <ul style="display: flex;list-style:none">
+        {% for item in site.data.menu %}
+        <li style="margin-right: 50px"><a style="text-decoration:none" class="{% if page.url == item.link %}active{% endif %}" href="{{ item.link }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+</nav>
 
 ## About Me
 
 I am a 3rd year computer engineering student.
-
----
-
-## My Projects
-
-My Projects
-
-[Bilgisayar Terimleri Sozlugu](/bilgisayar-terimleri-sozlugu/)
-
-[Operating Systems Directory Structures](/directory-structures/)
 
 ---
 
@@ -28,7 +25,7 @@ My Projects
 
 This website is still in the coding phase. :)
 
-<strong> Completed: 1 % </strong>
+<strong> Completed: 5 % </strong>
 
 ---
 

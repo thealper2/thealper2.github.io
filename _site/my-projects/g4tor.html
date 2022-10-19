@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup theme-color -->
+<!-- start theme color meta headers -->
+<meta name="theme-color" content="#151515">
+<meta name="msapplication-navbutton-color" content="#151515">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- end theme color meta headers -->
+
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Projelerim | Alper Karaca</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Projelerim" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This is my blog." />
+<meta property="og:description" content="This is my blog." />
+<link rel="canonical" href="http://localhost:4000/my-projects/g4tor" />
+<meta property="og:url" content="http://localhost:4000/my-projects/g4tor" />
+<meta property="og:site_name" content="Alper Karaca" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Projelerim" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"This is my blog.","headline":"Projelerim","url":"http://localhost:4000/my-projects/g4tor"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="/">
+          <h1>Alper Karaca</h1>
+        </a>
+        <h2>This is my blog.</h2>
+
+        <section id="downloads">
+          
+          <a href="" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <nav>
+      <ul style="display: flex;list-style:none">
+        
+        <li style="margin-right: 50px"><a style="text-decoration:none" class="" href="/">Ana Sayfa</a></li>
+        
+        <li style="margin-right: 50px"><a style="text-decoration:none" class="" href="/about/">Hakkımda</a></li>
+        
+        <li style="margin-right: 50px"><a style="text-decoration:none" class="" href="/ctf-writeups/">CTF Çözümleri</a></li>
+        
+        <li style="margin-right: 50px"><a style="text-decoration:none" class="" href="/my-projects/">Projelerim</a></li>
+        
+        <li style="margin-right: 50px"><a style="text-decoration:none" class="" href="/blog/">Blog Yazıları</a></li>
+        
+        <li style="margin-right: 50px"><a style="text-decoration:none" class="" href="/contact/">İletişim</a></li>
+        
+      </ul>
+</nav>
+
+<h2 id="my-projects">My Projects</h2>
+
+<p>Bu kısımda github’daki projelerimi açıklayacağım.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="nc">String</span> <span class="nf">randomKey</span><span class="o">(</span><span class="kt">int</span> <span class="n">length</span><span class="o">)</span> <span class="o">{</span>
+    	<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"[*] Generating a key..."</span><span class="o">);</span>
+    	<span class="nc">String</span> <span class="n">upper</span> <span class="o">=</span> <span class="s">"ABCDEFGHIJKLMNOPQRSTUVWXYZ"</span><span class="o">;</span>
+    	<span class="nc">String</span> <span class="n">lower</span> <span class="o">=</span> <span class="s">"abcdefghijklmnopqrstuvwxyz"</span><span class="o">;</span>
+    	<span class="nc">String</span> <span class="n">number</span> <span class="o">=</span> <span class="s">"0123456789"</span><span class="o">;</span>
+    	<span class="nc">String</span> <span class="n">special</span> <span class="o">=</span> <span class="s">".,;&lt;&gt;?/[{]}+-_)(*!'^%#$@="</span><span class="o">;</span>
+    	<span class="nc">String</span> <span class="n">combined</span> <span class="o">=</span> <span class="n">upper</span> <span class="o">+</span> <span class="n">lower</span> <span class="o">+</span> <span class="n">number</span> <span class="o">+</span> <span class="n">special</span><span class="o">;</span>
+    	<span class="nc">String</span> <span class="n">password</span> <span class="o">=</span> <span class="s">""</span><span class="o">;</span>
+    	<span class="nc">Random</span> <span class="n">random</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Random</span><span class="o">();</span>
+    	<span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="o">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+    		<span class="n">password</span> <span class="o">+=</span> <span class="n">combined</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">random</span><span class="o">.</span><span class="na">nextInt</span><span class="o">(</span><span class="n">combined</span><span class="o">.</span><span class="na">length</span><span class="o">()));</span>
+    	<span class="o">}</span>
+    	<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"[*] Your key is : "</span> <span class="o">+</span> <span class="n">password</span><span class="o">);</span>
+    	<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"[!] Write it from client."</span><span class="o">);</span>
+    	<span class="k">return</span> <span class="n">password</span><span class="o">;</span>
+    <span class="o">}</span>
+</code></pre></div></div>
+
+<p>Bu kısımda github’daki projelerimi açıklayacağım.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">receiver_mode</span><span class="o">(</span><span class="nc">String</span> <span class="n">fileName</span><span class="o">)</span> <span class="kd">throws</span> <span class="nc">IOException</span><span class="o">,</span> <span class="nc">InterruptedException</span> <span class="o">{</span>
+    	
+    	<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">"[*] Port: "</span><span class="o">);</span>
+		<span class="n">port</span> <span class="o">=</span>  <span class="nc">Integer</span><span class="o">.</span><span class="na">parseInt</span><span class="o">(</span><span class="n">mode</span><span class="o">.</span><span class="na">nextLine</span><span class="o">());</span>
+		<span class="nc">ServerSocket</span> <span class="n">ss</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ServerSocket</span><span class="o">(</span><span class="n">port</span><span class="o">);</span>
+		<span class="nc">Socket</span> <span class="n">s</span> <span class="o">=</span> <span class="n">ss</span><span class="o">.</span><span class="na">accept</span><span class="o">();</span>
+		<span class="nc">DataInputStream</span> <span class="n">din</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">DataInputStream</span><span class="o">(</span><span class="n">s</span><span class="o">.</span><span class="na">getInputStream</span><span class="o">());</span>
+		<span class="nc">String</span> <span class="n">str</span> <span class="o">=</span> <span class="s">""</span><span class="o">;</span>
+		<span class="n">key</span> <span class="o">=</span> <span class="n">randomKey</span><span class="o">(</span><span class="mi">5</span><span class="o">);</span>
+		<span class="n">str</span> <span class="o">=</span> <span class="n">din</span><span class="o">.</span><span class="na">readUTF</span><span class="o">();</span>
+		
+		<span class="k">if</span><span class="o">(</span><span class="n">str</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">key</span><span class="o">))</span> <span class="o">{</span>
+			<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"[+] Key accepted. "</span><span class="o">);</span>
+			<span class="n">din</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+			<span class="n">s</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+			<span class="n">ss</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+			<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"[*] Preparing socket for server."</span><span class="o">);</span>
+			<span class="nc">Thread</span><span class="o">.</span><span class="na">sleep</span><span class="o">(</span><span class="mi">3000</span><span class="o">);</span>
+			<span class="k">try</span><span class="o">(</span><span class="nc">ServerSocket</span> <span class="n">serverSocket</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ServerSocket</span><span class="o">(</span><span class="n">port</span><span class="o">))</span> <span class="o">{</span>  
+	            
+				<span class="k">if</span><span class="o">(</span><span class="n">serverSocket</span><span class="o">.</span><span class="na">isBound</span><span class="o">())</span> <span class="o">{</span>
+					<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"[!] Server socket bounded to Port: "</span> <span class="o">+</span> <span class="n">serverSocket</span><span class="o">.</span><span class="na">getLocalPort</span><span class="o">());</span>
+				<span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+					<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"[!] Server socket not bounded."</span><span class="o">);</span>
+				<span class="o">}</span>
+	            
+	            <span class="nc">Socket</span> <span class="n">clientSocket</span> <span class="o">=</span> <span class="n">serverSocket</span><span class="o">.</span><span class="na">accept</span><span class="o">();</span>
+	            
+	            <span class="k">if</span><span class="o">(</span><span class="n">clientSocket</span><span class="o">.</span><span class="na">isConnected</span><span class="o">())</span> <span class="o">{</span>
+	            	<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"[!] Client socket connected: "</span> <span class="o">+</span> <span class="n">clientSocket</span><span class="o">.</span><span class="na">getInetAddress</span><span class="o">());</span>
+	            <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+	            	<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"[!] Client socket not connected."</span><span class="o">);</span>
+	            <span class="o">}</span>
+	            
+	            <span class="n">dataInputStream</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">DataInputStream</span><span class="o">(</span><span class="n">clientSocket</span><span class="o">.</span><span class="na">getInputStream</span><span class="o">());</span>
+	            <span class="n">dataOutputStream</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">DataOutputStream</span><span class="o">(</span><span class="n">clientSocket</span><span class="o">.</span><span class="na">getOutputStream</span><span class="o">());</span>
+
+	            <span class="k">try</span> <span class="o">{</span>
+	        		<span class="nc">FileOutputStream</span> <span class="n">fileOutputStream</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">FileOutputStream</span><span class="o">(</span><span class="n">fileName</span><span class="o">);</span>
+	            	
+	            	<span class="kt">int</span> <span class="n">transferred_bytes</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+	                <span class="kt">long</span> <span class="n">file_size</span> <span class="o">=</span> <span class="n">dataInputStream</span><span class="o">.</span><span class="na">readLong</span><span class="o">();</span>
+	                <span class="kt">byte</span><span class="o">[]</span> <span class="n">buffer</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">byte</span><span class="o">[</span><span class="mi">4096</span><span class="o">];</span>
+	                <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">file_size</span><span class="o">);</span>
+	                <span class="k">while</span> <span class="o">(</span><span class="n">file_size</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="o">(</span><span class="n">transferred_bytes</span> <span class="o">=</span> <span class="n">dataInputStream</span><span class="o">.</span><span class="na">read</span><span class="o">(</span><span class="n">buffer</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="n">buffer</span><span class="o">.</span><span class="na">length</span><span class="o">))</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="o">)</span> <span class="o">{</span>
+	                    <span class="n">fileOutputStream</span><span class="o">.</span><span class="na">write</span><span class="o">(</span><span class="n">buffer</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="n">transferred_bytes</span><span class="o">);</span>
+	                    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"[*] Transferred bytes: "</span> <span class="o">+</span> <span class="n">transferred_bytes</span><span class="o">);</span>
+	                    <span class="n">file_size</span> <span class="o">-=</span> <span class="n">transferred_bytes</span><span class="o">;</span>
+	                <span class="o">}</span>
+	                <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"[*] File received."</span><span class="o">);</span>
+	                <span class="n">fileOutputStream</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+	        	<span class="o">}</span> <span class="k">catch</span><span class="o">(</span><span class="nc">Exception</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
+	        		<span class="n">e</span><span class="o">.</span><span class="na">printStackTrace</span><span class="o">();</span>
+	        	<span class="o">}</span>
+	            
+	            <span class="n">dataInputStream</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+	            <span class="n">dataOutputStream</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+	            <span class="n">clientSocket</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+	        <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="nc">Exception</span> <span class="n">e</span><span class="o">){</span>
+	            <span class="n">e</span><span class="o">.</span><span class="na">printStackTrace</span><span class="o">();</span>
+	        <span class="o">}</span>
+		<span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+			<span class="n">din</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+			<span class="n">s</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+			<span class="n">ss</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+		<span class="o">}</span>
+  <span class="o">}</span>
+</code></pre></div></div>
+
+<p>Bu kısımda github’daki projelerimi açıklayacağım.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">sender_mode</span><span class="o">(</span><span class="nc">String</span> <span class="n">path</span><span class="o">)</span> <span class="kd">throws</span> <span class="nc">UnknownHostException</span><span class="o">,</span> <span class="nc">IOException</span><span class="o">,</span> <span class="nc">InterruptedException</span> <span class="o">{</span>
+    	
+    	<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">"[*] Server address: "</span><span class="o">);</span>
+		<span class="n">address</span> <span class="o">=</span> <span class="n">mode</span><span class="o">.</span><span class="na">nextLine</span><span class="o">();</span>
+		<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">"[*] Server port: "</span><span class="o">);</span>
+		<span class="n">port</span> <span class="o">=</span>  <span class="nc">Integer</span><span class="o">.</span><span class="na">parseInt</span><span class="o">(</span><span class="n">mode</span><span class="o">.</span><span class="na">nextLine</span><span class="o">());</span>
+
+		<span class="nc">Socket</span> <span class="n">keySocket</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Socket</span><span class="o">(</span><span class="n">address</span><span class="o">,</span> <span class="n">port</span><span class="o">);</span>
+		<span class="n">dataOutputStream</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">DataOutputStream</span><span class="o">(</span><span class="n">keySocket</span><span class="o">.</span><span class="na">getOutputStream</span><span class="o">());</span>
+		<span class="nc">BufferedReader</span> <span class="n">bufferedReader</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">BufferedReader</span><span class="o">(</span><span class="k">new</span> <span class="nc">InputStreamReader</span><span class="o">(</span><span class="nc">System</span><span class="o">.</span><span class="na">in</span><span class="o">));</span>
+
+		<span class="nc">String</span> <span class="n">skey</span> <span class="o">=</span> <span class="s">""</span><span class="o">;</span>
+		<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">"[!] Key: "</span><span class="o">);</span>
+		<span class="n">skey</span> <span class="o">=</span> <span class="n">bufferedReader</span><span class="o">.</span><span class="na">readLine</span><span class="o">();</span>
+		<span class="n">dataOutputStream</span><span class="o">.</span><span class="na">writeUTF</span><span class="o">(</span><span class="n">skey</span><span class="o">);</span>
+
+		<span class="nc">Thread</span><span class="o">.</span><span class="na">sleep</span><span class="o">(</span><span class="mi">10000</span><span class="o">);</span>
+		<span class="k">try</span><span class="o">(</span><span class="nc">Socket</span> <span class="n">socket</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Socket</span><span class="o">(</span><span class="n">address</span><span class="o">,</span> <span class="n">port</span><span class="o">))</span> <span class="o">{</span>
+			
+			<span class="k">if</span><span class="o">(</span><span class="n">socket</span><span class="o">.</span><span class="na">isConnected</span><span class="o">())</span> <span class="o">{</span>
+				<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"[!] Socket connection established: "</span> <span class="o">+</span> <span class="n">socket</span><span class="o">.</span><span class="na">getInetAddress</span><span class="o">());</span>
+			<span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+				<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"[!] Socket connection not established."</span><span class="o">);</span>
+			<span class="o">}</span>
+			
+            <span class="n">dataInputStream</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">DataInputStream</span><span class="o">(</span><span class="n">socket</span><span class="o">.</span><span class="na">getInputStream</span><span class="o">());</span>
+            <span class="n">dataOutputStream</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">DataOutputStream</span><span class="o">(</span><span class="n">socket</span><span class="o">.</span><span class="na">getOutputStream</span><span class="o">());</span>
+
+            <span class="k">try</span> <span class="o">{</span>
+        		<span class="nc">File</span> <span class="n">file</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">File</span><span class="o">(</span><span class="n">path</span><span class="o">);</span>
+        	       
+                <span class="k">if</span><span class="o">(</span><span class="n">file</span><span class="o">.</span><span class="na">exists</span><span class="o">())</span> <span class="o">{</span>
+                	<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"[!] File existing."</span><span class="o">);</span>
+                <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+                	<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"[!] File not existing."</span><span class="o">);</span>
+                <span class="o">}</span>
+                
+                <span class="nc">FileInputStream</span> <span class="n">fileInputStream</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">FileInputStream</span><span class="o">(</span><span class="n">file</span><span class="o">);</span>
+                <span class="n">dataOutputStream</span><span class="o">.</span><span class="na">writeLong</span><span class="o">(</span><span class="n">file</span><span class="o">.</span><span class="na">length</span><span class="o">());</span>  
+                <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">file</span><span class="o">.</span><span class="na">length</span><span class="o">());</span>
+                <span class="kt">int</span> <span class="n">transferring_bytes</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+                <span class="kt">byte</span><span class="o">[]</span> <span class="n">buffer</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">byte</span><span class="o">[</span><span class="mi">4096</span><span class="o">];</span>
+
+                <span class="k">while</span><span class="o">((</span><span class="n">transferring_bytes</span><span class="o">=</span><span class="n">fileInputStream</span><span class="o">.</span><span class="na">read</span><span class="o">(</span><span class="n">buffer</span><span class="o">))!=-</span><span class="mi">1</span><span class="o">){</span>
+                    <span class="n">dataOutputStream</span><span class="o">.</span><span class="na">write</span><span class="o">(</span><span class="n">buffer</span><span class="o">,</span><span class="mi">0</span><span class="o">,</span><span class="n">buffer</span><span class="o">.</span><span class="na">length</span><span class="o">);</span>
+                    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"[*] Transferring bytes: "</span> <span class="o">+</span> <span class="n">transferring_bytes</span><span class="o">);</span>
+                    <span class="n">dataOutputStream</span><span class="o">.</span><span class="na">flush</span><span class="o">();</span>
+                <span class="o">}</span>
+                <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"[*] File transferred."</span><span class="o">);</span>
+                <span class="n">fileInputStream</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+        	<span class="o">}</span> <span class="k">catch</span><span class="o">(</span><span class="nc">Exception</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
+        		<span class="n">e</span><span class="o">.</span><span class="na">printStackTrace</span><span class="o">();</span>
+        	<span class="o">}</span>
+            
+            <span class="n">dataInputStream</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+	    	<span class="n">dataOutputStream</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+        <span class="o">}</span><span class="k">catch</span> <span class="o">(</span><span class="nc">Exception</span> <span class="n">e</span><span class="o">){</span>
+            <span class="n">e</span><span class="o">.</span><span class="na">printStackTrace</span><span class="o">();</span>
+        <span class="o">}</span>
+		<span class="n">dataOutputStream</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+		<span class="n">keySocket</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+    <span class="o">}</span>
+</code></pre></div></div>
+
+<p>Bu kısımda github’daki projelerimi açıklayacağım.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span> <span class="n">args</span><span class="o">[])</span> <span class="kd">throws</span> <span class="nc">IOException</span><span class="o">,</span> <span class="nc">InterruptedException</span> <span class="o">{</span>
+		<span class="n">mode</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Scanner</span><span class="o">(</span><span class="nc">System</span><span class="o">.</span><span class="na">in</span><span class="o">);</span>
+		<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"[!] Choose Mode\n[*] 1- Receive\n[*] 2- Send"</span><span class="o">);</span>
+		<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">"[?] Mode: "</span><span class="o">);</span>
+		
+		<span class="kt">int</span> <span class="n">mod</span> <span class="o">=</span> <span class="nc">Integer</span><span class="o">.</span><span class="na">parseInt</span><span class="o">(</span><span class="n">mode</span><span class="o">.</span><span class="na">nextLine</span><span class="o">());</span>
+		
+		<span class="k">switch</span><span class="o">(</span><span class="n">mod</span><span class="o">)</span> <span class="o">{</span>
+			<span class="k">case</span> <span class="mi">1</span><span class="o">:</span>
+				<span class="n">receiver_mode</span><span class="o">(</span><span class="s">"whitepages.txt"</span><span class="o">);</span>
+				<span class="k">break</span><span class="o">;</span>
+			<span class="k">case</span> <span class="mi">2</span><span class="o">:</span>
+				<span class="n">sender_mode</span><span class="o">(</span><span class="s">"whitepages.txt"</span><span class="o">);</span>
+				<span class="k">break</span><span class="o">;</span>
+			<span class="k">default</span><span class="o">:</span>
+				<span class="k">break</span><span class="o">;</span>
+		<span class="o">}</span>
+	<span class="o">}</span>
+</code></pre></div></div>
+
+<p>Projenin Github sayfasına gitmek için aşağıdaki butona basıp gidebilirsiniz.</p>
+
+<p><button style="background-color: white;color: black;border: 2px solid #4CAF50;width: 250px" href="https://github.com/thealper2/g4tor">Kodun tam haline gitmek için Tiklayiniz</button></p>
+
+<hr />
+
+<footer style="float:left;"><small>&copy; 2022 thealper2</small></footer>
+<footer style="float:right;"><small><a href="https://github.com/thealper2">My Github</a></small></footer>
+
+      </section>
+    </div>
+  </body>
+</html>
